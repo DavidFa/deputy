@@ -1,0 +1,161 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Testing People Component should match snapshot 1`] = `
+<div
+  className="sc-fKVqWL iEteF"
+>
+  <div
+    data-testid="loading"
+  >
+    Loading ...
+  </div>
+  <h2
+    className="sc-bBHxTw kpjttF"
+    data-testid="pageTitle"
+  >
+    People
+  </h2>
+  <input
+    className="sc-gsDKAQ bsgvEM"
+    data-testid="searchToolBar"
+    onChange={[Function]}
+    placeholder="Search People..."
+    value=""
+  />
+  <select
+    className="sc-bdvvtL hniPQQ"
+    data-testid="dropdown"
+    onChange={[Function]}
+    value=""
+  >
+    <option
+      value=""
+    >
+      Filter
+    </option>
+    <option
+      value="name"
+    >
+      Name
+    </option>
+    <option
+      value="email"
+    >
+      Email
+    </option>
+    <option
+      value="address"
+    >
+      Address
+    </option>
+    <option
+      value="status"
+    >
+      Status
+    </option>
+  </select>
+  <div
+    className="sc-kDTinF kvsTBR"
+    data-testid="dataGrid"
+  >
+    <div
+      className="sc-dkPtRN cchSIX"
+    >
+      <table
+        className="sc-hKwDye WuTZu"
+      >
+        <thead
+          className="sc-gKclnd kQaIrJ"
+        >
+          <tr
+            className="sc-jRQBWg hfXRKW"
+          >
+            <td
+              className="sc-eCImPb eelyZY"
+            >
+              Name
+            </td>
+            <td
+              className="sc-eCImPb eelyZY"
+            >
+              Address
+            </td>
+            <td
+              className="sc-eCImPb eelyZY"
+            >
+              Location
+            </td>
+            <td
+              className="sc-eCImPb eelyZY"
+            >
+              Email
+            </td>
+            <td
+              className="sc-eCImPb eelyZY"
+            >
+              Status
+            </td>
+            <td
+              className="sc-eCImPb eelyZY"
+            >
+              
+            </td>
+          </tr>
+        </thead>
+        <tbody
+          className="sc-iCfMLu dkvyUx"
+        >
+          <tr
+            className="sc-jRQBWg hfXRKW"
+          >
+            <td
+              className="sc-eCImPb exNnNj"
+              colSpan={6}
+            >
+              Data is empty!
+            </td>
+          </tr>
+        </tbody>
+        <tfoot
+          className="sc-pVTFL cSzJGF"
+        >
+          <tr
+            className="sc-jRQBWg hfXRKW"
+          >
+            <td
+              className="sc-eCImPb hvhnER"
+            >
+              <button
+                className="sc-furwcr jBqzNd"
+                disabled={true}
+                onClick={[Function]}
+              >
+                Previous Page
+              </button>
+            </td>
+            <td
+              className="sc-eCImPb eUVqQa"
+              colSpan={4}
+            >
+              <div
+                className="sc-jrQzAO jwrtrC"
+              />
+            </td>
+            <td
+              className="sc-eCImPb eUVqQa"
+            >
+              <button
+                className="sc-furwcr jBqzNd"
+                disabled={false}
+                onClick={[Function]}
+              >
+                Next Page
+              </button>
+            </td>
+          </tr>
+        </tfoot>
+      </table>
+    </div>
+  </div>
+</div>
+`;
