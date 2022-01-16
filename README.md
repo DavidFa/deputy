@@ -27,5 +27,3 @@ npm install --save-dev react-test-renderer
 - npm test
 - This application excludes end-end test such as Cypress
 
-
-test2
